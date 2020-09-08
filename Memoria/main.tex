@@ -1,0 +1,78 @@
+﻿\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Taller de memoria}
+            
+        \vspace{0.5cm}
+        \LARGE
+       
+            
+        \vspace{1.5cm}
+            
+        \textbf{Jazmin Andrea Moreno Castrillón}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Memoria del computador}\label{contenido}
+Es uno de los componentes fundamentales de la computadora. Es un elemento que se encarga de almacenar la información de los procesos ejecutados de una forma específica durante un periodo de tiempo. La memoria está interconectada con otros elementos adicionales que permiten que la computadora funcione de forma correcta, tales como la unidad central de procesamiento o CPU, y los dispositivos de entrada/salida. 
+
+\section{Tipos de memoria} \label{contenido}
+Una computadora requiere de ciertas especificaciones para cumplir con su función, entre ellas tenemos los 4 tipos de memorias: La RAM, la ROM, la SRAM (Caché) y la memoria virtual(SWAP):
+\subsection{RAM}
+Podría decirse que es la que tiene mayor importancia, y es que sin ella no funcionaría la computadora, se encarga de almacenar diversos tipos de información, bien sean procesos temporales como modificar archivos hasta instrucciones directas que permiten ejecutar las aplicaciones instaladas. A su vez, esta memoria se puede clasificar según su tecnología, velocidad de acceso y su forma física (DRAM, SDRAM, RDRAM, etc).
+
+\subsection{ROM}
+Es una memoria que trabaja de manera secuencial y se encarga de almacenar los datos correspondientes a la BIOS, esta viene incorporada a la motherboard, lo que permite brindar las instrucciones necesarias al PC durante el arranque.
+
+\subsection{CACHÉ}
+Esta memoria está presente tanto en el procesador, en el disco rígido y en la motherboard, y se encarga de almacenar la informacion de sitios web y programas ya instalados para que al ser visitados nuevamente, el proceso de hallar y ejecutar la información sea mucho más ágil. Esta memoria se puede clasificar en tres tipos y se clasifican según su ubicación, capacidad, y velocidad (L1, L2, L3).
+
+\subsection{MEMORIA VIRTUAL}
+Esta memoria está presente sólo en ciertos tipos de computadoras, principalmente en las que tienen sistema operativo Linux o Windows, su funcionamiento es parecido al de la memoria caché. En linux se encuentra en una partición diferente del disco, mientras que en Windows está dentro del propio sistema operativo, en un archivo.
+
+\section{Gestión de la memoria de un computador} \label{contenido}
+Para permitir un correcto funcionamiento de la computadora y un buen uso de la memoria, esta debe ser distribuida según el caso, la función, y el tiempo que se vaya a utilizar, así mismo, se debe verificar la disrtribución y el tipo de memoria que se va a emplear. La operación principal es el translado de información que debe ejecutar el procesador a la memoria principal, una vez allí, y dependiendo del método que utilice el computador, se gestiona con el tipo de memoria que corresponda (caché, virtual, etc) y el procesador nuevamente, dando como resultado la información procesada por medio de los dispositivos de salida.
+
+
+
+\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?} \label{contenido}
+Básicamente hay que tener en cuenta el procesador (Ya que un procesador muy básico no puede gestionar una memoria con alta capacidad de almacenamiento de la mejor manera), la capacidad de almacenamiento (Ya que un buen almacenamiento hace que se pueda administrar más información y que quede espacio para el resto de procesos), y la latencia que tenga la memoria, la latencia es el tiempo que se tarda la memoria en buscar, almacenar y tener disponible la información, si una memoria tiene menos latencia que la otra, entonces los procesos serán más rápidos, lo que hace que el computador pueda trabajar de una forma más fluida y que brinde un buen rendimiento.
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+https://www.ecured.cu/Memoria_(informatica)
+
+http://aulavirtual.sld.cu/pluginfile.php/6296/mod_imscp/content/1/Tipos%20de%20memorias%20de%20computadoras.pdf
+
+http://openaccess.uoc.edu/webapps/o2/bitstream/10609/8179/1/fserranocaTFC0611.pdf
+
+
+
+\end{document}
